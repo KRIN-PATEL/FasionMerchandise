@@ -1,0 +1,453 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Group6_Fashion_Merchandise.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Group6_Fashion_Merchandise.2079g4reho.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\1240a55f-9539-4117-b67c-ceecf2a4a74c.png",
+      "PackagePath": "staticwebassets\\Images\\1240a55f-9539-4117-b67c-ceecf2a4a74c.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\3621f273-4baa-4a58-abea-262ee534d691.png",
+      "PackagePath": "staticwebassets\\Images\\3621f273-4baa-4a58-abea-262ee534d691.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\567d050b-b0f1-47d8-ab73-7ff174e6699c.png",
+      "PackagePath": "staticwebassets\\Images\\567d050b-b0f1-47d8-ab73-7ff174e6699c.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Logo\\logo.png",
+      "PackagePath": "staticwebassets\\Images\\Logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\AUSELILY Summer Dress.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\AUSELILY Summer Dress.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\Alimen shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\Alimen shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\Hoodie.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\Hoodie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\MISFAY Women Summer Dresses.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\MISFAY Women Summer Dresses.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\Sweatshirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\Sweatshirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\banana republic.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\banana republic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\benyers.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\benyers.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\blue pants.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\blue pants.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\casio.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\casio.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\cotton shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\cotton shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\nike.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\nike.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\pants.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\pants.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\rayban.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\rayban.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\t-shirt.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\t-shirt.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\Product\\under armour.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\under armour.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\a2e6cbdb-b826-43e8-ac7b-9658bfc0700d.png",
+      "PackagePath": "staticwebassets\\Images\\a2e6cbdb-b826-43e8-ac7b-9658bfc0700d.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 1.jpeg",
+      "PackagePath": "staticwebassets\\Images\\banner 1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 1.png",
+      "PackagePath": "staticwebassets\\Images\\banner 1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 2.jpeg",
+      "PackagePath": "staticwebassets\\Images\\banner 2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 3.jpeg",
+      "PackagePath": "staticwebassets\\Images\\banner 3.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 5.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner 5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\banner 6.jpg",
+      "PackagePath": "staticwebassets\\Images\\banner 6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Adidas.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Adidas.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Calvin_Klein.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Calvin_Klein.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Champion.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Champion.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Chaps.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Chaps.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Converse.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Converse.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\GoodThreads.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\GoodThreads.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\JCrew_Mercantile.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\JCrew_Mercantile.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Levis.jpg",
+      "PackagePath": "staticwebassets\\Images\\brands\\Levis.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\NewBalance.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\NewBalance.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Nike.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Nike.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\RayBan.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\RayBan.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\Timberland.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\Timberland.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\brands\\UnderArmour.png",
+      "PackagePath": "staticwebassets\\Images\\brands\\UnderArmour.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\d113c949-d962-474c-8e4e-4c6a6a4cf017.png",
+      "PackagePath": "staticwebassets\\Images\\d113c949-d962-474c-8e4e-4c6a6a4cf017.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\dfd23ce8-32c7-4db6-9558-323fb9be0012.png",
+      "PackagePath": "staticwebassets\\Images\\dfd23ce8-32c7-4db6-9558-323fb9be0012.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\f6df8920-458a-45cb-9637-f443c6885873.jpg",
+      "PackagePath": "staticwebassets\\Images\\f6df8920-458a-45cb-9637-f443c6885873.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\harsh.jpg",
+      "PackagePath": "staticwebassets\\Images\\harsh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\krin.jpg",
+      "PackagePath": "staticwebassets\\Images\\krin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\Images\\yash.jpg",
+      "PackagePath": "staticwebassets\\Images\\yash.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\Group6_Fashion_Merchandise\\Group6_Fashion_Merchandise\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Group6_Fashion_Merchandise.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Group6_Fashion_Merchandise.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Group6_Fashion_Merchandise.props",
+      "PackagePath": "build\\Group6_Fashion_Merchandise.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Group6_Fashion_Merchandise.props",
+      "PackagePath": "buildMultiTargeting\\Group6_Fashion_Merchandise.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Group6_Fashion_Merchandise.props",
+      "PackagePath": "buildTransitive\\Group6_Fashion_Merchandise.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
