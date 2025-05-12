@@ -1,0 +1,97 @@
+﻿@model Group6_Fashion_Merchandise.Models.CheckoutViewModel
+@{
+    ViewData["Title"] = "Checkout";
+    var cart = ViewBag.CartItems as List<Group6_Fashion_Merchandise.Models.CartItem>;
+    var total = ViewBag.Total;
+    var tax = ViewBag.Tax;
+    var grandTotal = ViewBag.GrandTotal;
+}
+
+<div class="container my-5">
+    <div class="row g-4">
+        
+        <div class="col-lg-6">
+            <div class="p-4 bg-light rounded-4 border shadow-sm">
+                <h4 class="text-center fw-bold mb-4 text-dark">
+                    <i class="bi bi-receipt-cutoff text-danger"></i> Checkout
+                </h4>
+
+                <form asp-action="Checkout" method="post">
+                    <div class="form-floating mb-3">
+                        <input asp-for="FullName" class="form-control" placeholder="Full Name" />
+                        <label asp-for="FullName"></label>
+                        <span asp-validation-for="FullName" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Email" class="form-control" placeholder="Email" />
+                        <label asp-for="Email"></label>
+                        <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="Address" class="form-control" placeholder="Address" />
+                        <label asp-for="Address"></label>
+                        <span asp-validation-for="Address" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                        <input asp-for="City" class="form-control" placeholder="City" />
+                        <label asp-for="City"></label>
+                        <span asp-validation-for="City" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-floating mb-4">
+                        <input asp-for="PhoneNumber" class="form-control" placeholder="Phone Number" />
+                        <label asp-for="PhoneNumber"></label>
+                        <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+
+                    <div class="text-center">
+                        <button type="submit" class="btn px-5 py-2 text-white" style="background-color:#5a2a27;">
+                            Confirm Purchase
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="col-lg-6">
+            <div class="p-4 bg-white rounded-4 border shadow-sm">
+                <h4 class="text-center fw-bold text-dark mb-4">
+                    <i class="bi bi-lock-fill text-info"></i> Order Summary
+                </h4>
+
+                @if (cart != null && cart.Any())
+                {
+                    foreach (var item in cart)
+                    {
+                        <div class="d-flex align-items-center border-bottom pb-3 mb-3">
+                            <img src="@item.ImagePath" width="70" height="70" class="me-3 rounded" />
+                            <div>
+                                <h6 class="mb-1 fw-semibold text-dark">@item.Name</h6>
+                                <small class="text-muted">Qty: @item.Quantity</small><br />
+                                <small class="text-muted">Subtotal: $@item.SubTotal</small>
+                            </div>
+                        </div>
+                    }
+
+                    <div class="pt-3">
+                        <p><strong>Total:</strong> $@total</p>
+                        <p><strong>Tax (13%):</strong> $@tax</p>
+                        <h5 class="fw-bold text-dark">Grand Total: $@grandTotal</h5>
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-warning">Your cart is empty.</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

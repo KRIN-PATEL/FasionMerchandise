@@ -1,0 +1,54 @@
+﻿@model ContactForm
+@{
+    ViewData["Title"] = "Contact Us";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4 fw-bold border-bottom pb-2">Contact Us</h2>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success">@TempData["Success"]</div>
+    }
+
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <form asp-action="Contact" method="post" novalidate>
+                <div class="mb-3">
+                    <label asp-for="Name" class="form-label">Your Name</label>
+                    <input asp-for="Name" class="form-control" />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Email" class="form-label">Your Email</label>
+                    <input asp-for="Email" class="form-control" />
+                    <span asp-validation-for="Email" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label asp-for="Message" class="form-label">Your Message</label>
+                    <textarea asp-for="Message" rows="5" class="form-control"></textarea>
+                    <span asp-validation-for="Message" class="text-danger"></span>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="mt-4">
+                <p><strong>Phone:</strong> +1 (123) 456-7890</p>
+                <p><strong>Email:</strong> contact@fashionmerch.com</p>
+                <p><strong>Address:</strong> 108 University Ave E, Waterloo, ON</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <iframe class="w-100 rounded" height="350"
+                    src="https://www.google.com/maps?q=108%20University%20Ave%20E,%20Waterloo,%20ON&output=embed"
+                    style="border:0;" allowfullscreen loading="lazy"></iframe>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

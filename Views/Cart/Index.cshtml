@@ -1,0 +1,58 @@
+﻿@model List<Group6_Fashion_Merchandise.Models.CartItem>
+@{
+    ViewData["Title"] = "Shopping Cart";
+}
+
+<div class="container my-5">
+    <h2 class="mb-4">Your Cart</h2>
+
+    @if (TempData["Message"] != null)
+    {
+        <div class="alert alert-warning">@TempData["Message"]</div>
+    }
+
+    @if (!Model.Any())
+    {
+        <div class="alert alert-info">Your cart is empty.</div>
+    }
+    else
+    {
+        <table class="table table-bordered">
+            <thead class="table-light">
+                <tr>
+                    <th>Image</th>
+                    <th>Name</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Subtotal</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td><img src="@item.ImagePath" width="80" /></td>
+                        <td>@item.Name</td>
+                        <td>@item.Quantity</td>
+                        <td>$@item.Price</td>
+                        <td>$@item.SubTotal</td>
+                        <td>
+                            <a asp-action="Remove" asp-route-id="@item.ProductId" class="btn btn-sm btn-danger">Remove</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <div class="text-end">
+            <p><strong>Total:</strong> $@ViewBag.Total</p>
+            <p><strong>Tax (13%):</strong> $@ViewBag.Tax</p>
+            <h4><strong>Grand Total:</strong> $@ViewBag.GrandTotal</h4>
+
+            <a asp-action="Clear" class="btn btn-outline-danger">Clear Cart</a>
+            <a asp-action="Checkout" class="btn btn-success ms-2">Buy Now</a>
+        </div>
+    }
+</div>
+

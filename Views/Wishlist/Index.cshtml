@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Group6_Fashion_Merchandise.Models.WishlistItem>
+
+<h2 class="mb-4 fw-bold text-dark">
+    <i class="bi bi-heart-fill text-danger me-2"></i>My Wishlist
+</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning text-center">
+        Your wishlist is currently empty.
+    </div>
+}
+else
+{
+    <div class="table-responsive">
+        <table class="table table-bordered align-middle shadow-sm bg-white">
+            <thead class="table-light text-center">
+                <tr>
+                    <th>Image</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center" style="width: 120px;">
+                            <img src="@item.Product.ImagePath" alt="@item.Product.Name" style="height: 100px; object-fit: contain;" class="img-thumbnail rounded" />
+                        </td>
+                        <td>@item.Product.Name</td>
+                        <td class="text-success fw-semibold">$@item.Product.Price</td>
+                        <td class="text-center">
+                            <form asp-action="Remove" asp-route-id="@item.Id" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-outline-danger btn-sm">
+                                    <i class="bi bi-trash-fill"></i> Remove
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}

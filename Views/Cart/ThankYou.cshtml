@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Order Successful";
+}
+
+<div class="container my-5 text-center">
+    <div class="bg-white p-5 rounded-4 shadow-sm border mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+            <i class="bi bi-patch-check-fill fs-1 text-success"></i>
+        </div>
+
+        <h2 class="fw-bold text-success">
+            <i class="bi bi-emoji-party text-warning"></i> Thank You!
+        </h2>
+
+        <p class="lead text-muted mt-2">
+            Your order has been placed successfully. We appreciate your purchase!
+        </p>
+
+        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary px-4 mt-3">
+            <i class="bi bi-arrow-left-circle"></i> Continue Shopping
+        </a>
+    </div>
+</div>

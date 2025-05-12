@@ -1,0 +1,68 @@
+﻿@model IEnumerable<Group6_Fashion_Merchandise.Models.Product>
+@{
+    ViewData["Title"] = "Our Products";
+    var selectedCategory = ViewBag.SelectedCategory as string;
+    var selectedSortOrder = ViewBag.SortOrder as string;
+    var categories = ViewBag.Categories as List<string>;
+}
+
+<div class="container my-5">
+    <h2 class="text-center fw-bold mb-4 text-dark"><i class="bi bi-box-fill text-danger"></i> Explore Our Collection</h2>
+
+    <form method="get" class="row g-3 mb-5 align-items-end">
+        <div class="col-md-4">
+            <label class="form-label fw-semibold">Category</label>
+            <select class="form-select" name="category">
+                <option value="">All Categories</option>
+                @foreach (var cat in categories)
+                {
+                    <option value="@cat" selected="@(selectedCategory == cat ? "selected" : null)">@cat</option>
+                }
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label fw-semibold">Sort By</label>
+            <select name="sortOrder" class="form-select">
+                <option value="">Default</option>
+                <option value="price_asc" selected="@(selectedSortOrder == "price_asc" ? "selected" : null)">Price: Low to High</option>
+                <option value="price_desc" selected="@(selectedSortOrder == "price_desc" ? "selected" : null)">Price: High to Low</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn w-100 text-white" style="background-color: #5a2a27;">Apply</button>
+        </div>
+    </form>
+
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm border-0 rounded-4 bg-white">
+                    <img src="@item.ImagePath" class="card-img-top rounded-top-4" alt="@item.Name"
+                         style="height: 250px; object-fit: contain; background-color: #fef9f4;" />
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title fw-semibold text-dark">@item.Name</h5>
+                        <p class="fw-bold text-success">$@item.Price</p>
+
+                        <div class="mt-auto">
+                            <a asp-controller="Product" asp-action="Details" asp-route-id="@item.Id"
+                               class="btn w-100 text-white mb-2 py-2 fw-semibold d-flex justify-content-center align-items-center"
+                               style="background-color: #5a2a27;">
+                                <i class="bi bi-eye-fill me-2"></i> View Details
+                            </a>
+
+                            <form asp-controller="Wishlist" asp-action="Add" method="post">
+                                <input type="hidden" name="productId" value="@item.Id" />
+                                <button class="btn btn-outline-danger w-100 py-2 fw-semibold d-flex justify-content-center align-items-center"
+                                        type="submit" title="Add to Wishlist">
+                                    <i class="bi bi-heart me-2"></i> Add to Wishlist
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        }
+    </div>
+</div>
