@@ -1,0 +1,92 @@
+﻿@model Group6_Fashion_Merchandise.Models.Product
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Edit Product";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+
+    var categories = new List<string>
+    {
+        "Shirt", "T-Shirt", "Pant", "Sunglasses", "Shoes", "Watches", "Men's Wear", "Women's Wear"
+    };
+}
+
+<div class="container my-5">
+    <div class="bg-white p-5 shadow rounded-4 border border-1">
+        <h3 class="mb-4 fw-bold text-primary-emphasis">
+            <i class="bi bi-pencil-square me-2"></i>Edit Product
+        </h3>
+
+        <form asp-action="Edit" method="post" enctype="multipart/form-data">
+            <input type="hidden" asp-for="Id" />
+
+            <div class="mb-3">
+                <label asp-for="Name" class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-tag-fill me-1"></i> Name
+                </label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Description" class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-chat-left-text-fill me-1"></i> Description
+                </label>
+                <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Price" class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-cash-coin me-1"></i> Price
+                </label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Category" class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-tags-fill me-1"></i> Category
+                </label>
+                <select asp-for="Category" class="form-select" asp-items="@(new SelectList(categories))">
+                    <option value="">-- Select Category --</option>
+                </select>
+                <span asp-validation-for="Category" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="StockQuantity" class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-box-seam me-1"></i> Stock Quantity
+                </label>
+                <input asp-for="StockQuantity" class="form-control" />
+                <span asp-validation-for="StockQuantity" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label fw-semibold text-primary-emphasis">
+                    <i class="bi bi-image me-1"></i> Change Image
+                </label>
+                <input type="file" name="ImageFile" class="form-control" />
+                @if (!string.IsNullOrEmpty(Model.ImagePath))
+                {
+                    <div class="mt-2">
+                        <img src="@Model.ImagePath" width="100" class="rounded border" />
+                    </div>
+                }
+            </div>
+
+            <div class="d-flex justify-content-between mt-4">
+                <button type="submit" class="btn text-white" style="background-color: #5a2a27;">
+                    <i class="bi bi-save2 me-1"></i> Save
+                </button>
+                <a asp-action="Index" class="btn btn-outline-secondary">
+                    <i class="bi bi-x-circle me-1"></i> Cancel
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

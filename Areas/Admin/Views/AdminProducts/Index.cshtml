@@ -1,0 +1,60 @@
+﻿@model IEnumerable<Group6_Fashion_Merchandise.Models.Product>
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Manage Products";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container my-4">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h3 class="fw-bold text-dark">
+            <i class="bi bi-box-seam-fill me-2 text-danger"></i> Manage Products
+        </h3>
+        <a asp-action="Create" class="btn btn-success">
+            <i class="bi bi-plus-circle-fill me-1"></i> Add Product
+        </a>
+    </div>
+
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered align-middle shadow-sm bg-white">
+            <thead class="table-light">
+                <tr class="text-center">
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Category</th>
+                    <th>Stock</th>
+                    <th>Image</th>
+                    <th style="width: 150px;">Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var p in Model)
+                {
+                    <tr class="text-center">
+                        <td class="fw-semibold">@p.Name</td>
+                        <td class="text-muted">@p.Description</td>
+                        <td><span class="text-success fw-bold">$@p.Price</span></td>
+                        <td>@p.Category</td>
+                        <td>@p.StockQuantity</td>
+                        <td>
+                            <img src="@p.ImagePath" class="img-thumbnail rounded shadow-sm" style="width: 60px; height: 60px; object-fit: cover;" alt="Product Image" />
+                        </td>
+                        <td>
+                            <div class="d-grid gap-2">
+                                <a asp-action="Edit" asp-route-id="@p.Id" class="btn btn-warning btn-sm">
+                                    <i class="bi bi-pencil-fill"></i> Edit
+                                </a>
+                                <a asp-action="Delete" asp-route-id="@p.Id" class="btn btn-danger btn-sm">
+                                    <i class="bi bi-trash-fill"></i> Delete
+                                </a>
+                            </div>
+                        </td>
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
