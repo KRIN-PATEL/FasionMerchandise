@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+body {
+    background-color: #fef9f4;
+}
+
+.navbar {
+    background-color: #ffefd5;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: #5a2a27 !important;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #6b3e38 !important;
+    font-weight: 500;
+}
+
+footer {
+    background-color: #ffefd5;
+    color: #5a2a27;
+}
+
+.carousel-caption {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+}
+/* Product card hover effects */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .product-card:hover {
+        transform: scale(1.03);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    }
+
+    /* Button hover glow */
+    .product-card .btn:hover {
+        box-shadow: 0 4px 12px rgba(108, 117, 125, 0.4);
+    }
+
+
+
+.grayscale-hover {
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+    .grayscale-hover:hover {
+        filter: grayscale(0%);
+        transform: scale(1.05);
+    }
+.card:hover {
+    transform: scale(1.02);
+    transition: all 0.3s ease-in-out;
+}
